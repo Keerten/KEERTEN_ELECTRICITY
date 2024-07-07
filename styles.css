@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.hours {
+  height: 36px;
+  width: 351px;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  padding: 10px 0;
+}
+
+input,
+select {
+  padding: 5px;
+}
+
+button {
+  margin-top: 30px;
+}
+
+#output-box {
+  margin-top: 250px;
+}
+
+#total-box {
+  height: 80px;
+  width: 351px;
+  border-radius: 10px;
+  background-color: #383444;
+}
+
+#total-text {
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#spantotaltext {
+  margin-top: 15px;
+}
+
+#total-value {
+  font-size: xx-large;
+}
+
+#charges-box {
+  font-size: larger;
+  font-weight: 600;
+}
+
+#result-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#onpeakbox {
+  background-color: #756ab6;
+  border-radius: 10px;
+}
+
+#onpeakbox {
+  width: 170px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#onpeakprice {
+  text-align: center;
+  font-size: 50px;
+}
+
+#offpeakbox {
+  background-color: #e6a4b4;
+  border-radius: 10px;
+}
+
+#offpeakbox {
+  width: 170px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#offpeakprice {
+  text-align: center;
+  font-size: 50px;
+}

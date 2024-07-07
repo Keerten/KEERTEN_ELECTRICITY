@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Electricity Bill Calculator</h1>
+        <form class="hours">
+          <label for="onpeakhours">Enter kWh during on-peak hours</label>
+          <input
+            type="text"
+            name="onpeakhours"
+            id="onpeak"
+            placeholder="Enter on-peak hours"
+            value=""
+          />
+          <label for="offpeakhours">Enter kWh during off-peak hours</label>
+          <input
+            type="text"
+            name="offpeakkhours"
+            id="offpeak"
+            placeholder="Enter off-peak hours"
+            value=""
+          />
+          <label for="residence">Province of Residence</label>
+          <select name="residence" id="residence">
+            <option value="bc" selected>British Columbia</option>
+            <option value="on">Ontario</option>
+          </select>
+          <button type="button">Calculate</button>
+        </form>
+        <div id="output-box"></div>
+      </div>
+      <script src="app.js"></script>
+    </main>
+  </body>
+</html>
